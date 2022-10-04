@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/1a/f6/89/1af689d42bdb7686df444f22925f9e89.gif);
+}
+.form-login, .form-register {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: #32DE8A;
+    background-color: #A2E8DD;
+    opacity: .8;
+    width: 500px;
+    border-radius: 5px;
+    height: fit-content;
+    
+}
+.form-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    margin-top: 50px;
+}

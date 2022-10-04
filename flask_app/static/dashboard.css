@@ -1,0 +1,36 @@
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    
+    background-image: url(https://64.media.tumblr.com/9ff79663ae312562d409df303d414695/tumblr_pm7mz3G9XC1t9q05y_500.gif);
+}
+.body-container{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    
+}
+.tasks{
+    color: white;
+    width: fit-content;
+}
+
+.sidebar{
+    border-right: white;
+    width: 20%;
+    background-color: #50808E;
+}
+.task-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+
+}
